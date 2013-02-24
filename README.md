@@ -3,6 +3,8 @@ Adds support to [DocPad](https://docpad.org) for writing your templates using [P
 
 Convention:  `.anything.php|phtml`
 
+**Note:** this plugin provides PHP the template data, but you will not be able to call the template helpers as there is no easy way for php to communicate with javascript (which is what DocPad is built with), as such, you will probably want to use the [eco plugin](http://docpad.org/plugin/eco) instead.
+
 
 ## Install
 
