@@ -9,7 +9,7 @@ Convention:  `.anything.php|phtml`
 ## Install
 
 ```
-npm install --save docpad-plugin-php
+docpad install php
 ```
 
 
